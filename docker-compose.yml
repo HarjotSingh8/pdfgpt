@@ -1,0 +1,11 @@
+services:
+  pdfgpt:
+    image: pdfgpt
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python3 pdfgpt.py
+    volumes:
+      - ./:/app
+    # environment:
+    #   - OPENAI_API_KEY=<openapi_key>
