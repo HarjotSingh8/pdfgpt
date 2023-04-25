@@ -1,3 +1,1 @@
 .env
-# ignore files in data_source directory
-/data_source/*
