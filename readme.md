@@ -7,7 +7,7 @@ This is a simple demo of a GPT-3 based PDF query answering system. It reads all 
 1. Install docker and docker-compose
 2. Clone this repository
 3. Set the environment variable `OPENAI_API_KEY` to your OpenAI API key in .env file, or in docker-compose.yml file, or enter it when prompted
-4. Run `docker-compose run pdfgpt'
+4. Run `docker-compose run --rm pdfgpt'
 5. Wait for the container to build and start
 6. When prompted, enter the query
 
